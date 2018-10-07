@@ -1,13 +1,14 @@
 --[[
- _  __  _____   _____   ____    _____   ____
-| |/ / | ____| | ____| |  _ \  | ____| |  _ \
-| ' /  |  _|   |  _|   | |_) | |  _|   | |_) |
-| . \  | |___  | |___  |  __/  | |___  |  _ <
-|_|\_\ |_____| |_____| |_|     |_____| |_| \_\
+  _       _________     -------
+ | |     |         |   |  --   |
+ | |      ---   ---    |_____  |
+ | |         | |             | |
+ | | _____   | |       ______| /
+ |________|  |_|      |_______/
 تم كتابه وبرمجة السورس بوسطه المطور 
 نور الدين السراي 
 WRITING THE SOURCE BY : @TH3LTG
-CH SOURCE : @Lightning_CH
+CH SOURCE : @TH3LT
 
 ]]--
 local Ayatol_Korsi = "karrar LightningTAME develop source Lightning language lua "
@@ -413,17 +414,19 @@ if not database:get("setnumbergp") then
 end
 
 print("\27[0;31m>>"..[[
- _  __  _____   _____   ____    _____   ____
-| |/ / | ____| | ____| |  _ \  | ____| |  _ \
-| ' /  |  _|   |  _|   | |_) | |  _|   | |_) |
-| . \  | |___  | |___  |  __/  | |___  |  _ <
-|_|\_\ |_____| |_____| |_|     |_____| |_| \_\ 
+ --[[
+  _       _________     -------
+ | |     |         |   |  --   |
+ | |      ---   ---    |_____  |
+ | |         | |             | |
+ | | _____   | |       ______| /
+ |________|  |_|      |_______/
 ]].."\n\027[00m")
 print("\27[0;35m>>"..[[
 تم كتابه السورس بوسطه المطور 
 نور الدين  
-WRITING THE SOURCE BY : @LLX8XLL
-CH SOURCE : @Lightning_CH 
+WRITING THE SOURCE BY : @TH3LTG
+CH SOURCE : @TH3LT 
 - نور الدين السراي = @blcon
 
 ]].."\n\027[00m")
@@ -959,7 +962,7 @@ local tmLightning = function(msg)
             elseif is_momod(msg.sender_user_id_, msg.chat_id_) then
                 Lightning = "الادمن 🍃"
             elseif is_vipmem(msg.sender_user_id_, msg.chat_id_) then
-                   Lightning = "العضو المميز 🍃 "
+                   Lightning = "المميز 🍃 "
             else
                   Lightning = "العـضـــو 🛩"
             end
@@ -3010,7 +3013,7 @@ The *Number* of *Warnings* user : `[]] .. warns .. "/" .. sencwarn .. "]`", 1, "
       end 
 	-----------------------------------------------------------------------  
       if is_momod(msg.sender_user_id_, msg.chat_id_) and idf:match("-100(%d+)") then
-        local text = text:gsub("رفع عضو مميز", "Setvip")
+        local text = text:gsub("رفع مميز", "Setvip")
         if text:match("^[Ss]etvip (.*)$") and check_user_channel(msg) then
           local promotevip_by_id = function(extra, result)
             if result.id_ then
@@ -3058,7 +3061,7 @@ The *Number* of *Warnings* user : `[]] .. warns .. "/" .. sencwarn .. "]`", 1, "
 	  ------------------------------------------------------------------------------
       if is_momod(msg.sender_user_id_, msg.chat_id_) and idf:match("-100(%d+)") then
         do
-          local text = text:gsub("تنزل عضو مميز", "Demvip")
+          local text = text:gsub("تنزل مميز", "Demvip")
           if text:match("^[Dd]emvip (.*)$") and check_user_channel(msg) then
             local hash = "bot:vipmem:" .. msg.chat_id_
             local demotevip_by_id = function(extra, result)
@@ -3541,7 +3544,7 @@ The *Number* of *Warnings* user : `[]] .. warns .. "/" .. sencwarn .. "]`", 1, "
                 end
               end
             elseif database:get("lang:gp:" .. msg.chat_id_) then
-              send(msg.chat_id_, msg.id_, 1, "➢ *User Not Found* ✞ ", 1, "md")
+              send(msg.chat_id_, msg.id_, 1, "➢ *User Not Found* ✞ 1, "md")
             else
               send(msg.chat_id_, msg.id_, 1, "➢  لا يوجد مستخدم 📍 ", 1, "md")
             end
@@ -9965,7 +9968,7 @@ If You No Longer Want To Filter a Word, Send The /done Command !]], 1, "md")
                   elseif is_momod(result.id_, msg.chat_id_) then
                     t = "ادمن 🍃"
                   elseif is_vipmem(result.id_, msg.chat_id_) then
-                    t = "عضو مميز 🍃"
+                    t = "مميز 🍃"
                   else
                     t = "عضو 🍃"
                   end
@@ -10034,7 +10037,7 @@ If You No Longer Want To Filter a Word, Send The /done Command !]], 1, "md")
                   elseif is_momod(result.id_, msg.chat_id_) then
                     t = "ادمن 🍃"
                   elseif is_vipmem(result.id_, msg.chat_id_) then
-                    t = "عضو مميز 🍃"
+                    t = "مميز 🍃"
                   else
                     t = "عضو 🍃"
                   end
@@ -10189,7 +10192,7 @@ If You No Longer Want To Filter a Word, Send The /done Command !]], 1, "md")
               tar = "ادمن المجموعه🎌"
             elseif is_vipmem(result.id_, msg.chat_id_) then
               ten = "VIP Member"
-              tar = "عضو مميز 💀"
+              tar = "مميز 💀"
             else
               ten = "Member"
               tar = "عـضـــو 🛩️"
@@ -10916,7 +10919,7 @@ end end
    local text =  [[
    ‏
    ‏
-🔍┊ اهلاً بك في سورس كيبر❗️
+🔍┊ اهلاً بك في سورس لايتنك❗️
 🌀┊ اقوى السورسات العربية..
 
 🔰┊السورس من تطوير✔️
@@ -13849,7 +13852,7 @@ end
 ----------------------------------------- 
         if text == "بوت" or text == "هذا بوت" then
         	if not database:get('lock:add'..msg.chat_id_) then
-local Lightning = {"عـٰٰـٰود لوتُٰي 🙀 يـٰگول بُِوت عبالـٰه طافٰـُٰي💔 ويضِٰل يمٰـٓسلت وينشٰٰر روابـٰٓط 😳🍃","كافي تره صارت ماصخه 🙁🍃","اي بوت شتريد 😤","سمعتك كافي لتلح 😡" }
+local Lightning = {"عـٰٰـٰود لوتُٰي 🙀 يـٰگول بُِوت عبالـٰه طافٰـُٰي💔 ويضِٰل يمٰـٓسلت وينشٰٰر روابـٰٓط 😳🍃","كافي تره صارت ماصخه 🙁🍃","اي بوت شتريد 😤","سمعتك كافي لتلح 😡" }
 send(msg.chat_id_, msg.id_, 1,''..Lightning[math.random(#Lightning)]..'', 1, 'md')
 end
 end
