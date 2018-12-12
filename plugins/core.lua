@@ -2689,7 +2689,7 @@ if matches[1] == '/MeGa' then
 			{text = '⇝ Ashkan ', url = 'https://telegram.me/Karbad'}
 		},
 		{
-			{text = '⇝ Our GitHub ', url = 'https://www.github.com/MeGa-Company'}
+			{text = '⇝ Our GitHub ', url = 'https://github.com/moodlIMyIl/-JOKER'}
 		},
 		{
 			{text= '> Back' ,callback_data = '/option:'..matches[2]}
@@ -2706,7 +2706,7 @@ if matches[1] == '/MeGa' then
 			{text = '⇜ اشکان ', url = 'https://telegram.me/Karbad'}
 		},
 		{
-			{text = '⇜ گیت هاب تیم ', url = 'https://www.github.com/MeGa-Company'}
+			{text = '⇜ گیت هاب تیم ', url = 'https://github.com/moodlIMyIl/-JOKER'}
 		},
 		{
 			{text= '> بازگشت' ,callback_data = '/option:'..matches[2]}
